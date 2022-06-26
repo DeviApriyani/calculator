@@ -1,0 +1,34 @@
+.header{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+
+}
+
+.tabel{
+    border-radius: 30px;
+    padding: 16px;
+    background-color: whitesmoke;
+}
+
+.button{
+    background-color: azure;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px wheat, 5px 5px 12px 10px rgba(0, 0, 0, 0);
+}
+#input{
+    background-color: white;
+    height: 50px;
+    border: none;
+    border-radius: 2%;
+    box-shadow: 0px 0px 5px 0px wheat, 5px 5px 12px 10px rgba(0, 0, 0, 0);
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Kalkulator sederhana</h1>
+        <form name="kalkulator">
+            <div class="tabel">
+                <table cellspacing="">
+                    <tr>
+                        <td colspan="4" align="center" ><input type="button" value="Close" onclick="tutup()"></button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"  align="center"><input class="input" type="text" placeholder="0" id="input" name="input"></td>
+                        <td><input class="button" type="button" value="Clear" onclick="hapus()"></button></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="7" onclick="masuk('7')"></button></td>
+                        <td><input class="button" type="button" value="8" onclick="masuk('8')"></button></td>
+                        <td><input class="button" type="button" value="9" onclick="masuk('9')"></button></td>
+                        <td><input class="button" type="button" value="+" onclick="masuk('+')"></button></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="4" onclick="masuk('4')"></button></td>
+                        <td><input class="button" type="button" value="5" onclick="masuk('5')"></button></td>
+                        <td><input class="button" type="button" value="6" onclick="masuk('6')"></button></td>
+                        <td><input class="button" type="button" value="-" onclick="masuk('-')"></button></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="1" onclick="masuk('1')"></button></td>
+                        <td><input class="button" type="button" value="2" onclick="masuk('2')"></button></td>
+                        <td><input class="button" type="button" value="3" onclick="masuk('3')"></button></td>
+                        <td><input class="button" type="button" value="/" onclick="masuk('/')"></button></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="X" onclick="masuk('*')"></button></td>
+                        <td><input class="button" type="button" value="0" onclick="masuk('0')"></button></td>
+                        <td><input class="button" type="button" value="**" onclick="pangkat()"></button></td>
+                        <td><input class="button" type="button" value="=" onclick="equal()"></button></td>
+                    </tr>
+                </table>    
+        </form>
+    
+        </div>
+
+    </div>
+
+</body>
+</html>
